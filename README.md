@@ -1,6 +1,6 @@
 # Low-Power Temperature Sampling with LM35 Wake-Up
 
-Repository for the **KPIT Apex Lab** project assessment under **Honors EP&ACN**.
+Embedded firmware and documentation for low-power temperature sampling with LM35 wake-up on STM32F446RE.
 
 ## Student & Course Details
 
@@ -9,7 +9,7 @@ Repository for the **KPIT Apex Lab** project assessment under **Honors EP&ACN**.
 | **Student** | Aaron Mobby |
 | **PRN** | 24310001 |
 | **College** | AISSMS IOIT |
-| **Program** | Honors EP&ACN — KPIT Apex Lab Assessment |
+| **Program** | Embedded Systems Project |
 
 ## System Overview
 
@@ -33,7 +33,7 @@ kpit-assesmentgreenhouse/
 ├── Test_Cases_Photos/
 │   ├── Hardware_Setup.jpg                      # Hardware setup photo
 │   └── UART_Serial_Log.png                     # UART serial log output
-├── General_Instructions.pdf                    # KPIT Apex Lab project guidelines
+├── General_Instructions.pdf                    # Project guidelines
 ├── Low_Power_Temperature_Sampling_Report.docx  # Final project report (DOCX)
 ├── Project_report.pdf                          # Final project report (PDF)
 └── README.md                                   # Project documentation
@@ -52,5 +52,5 @@ kpit-assesmentgreenhouse/
 - `Core/Src/` — C source files (`main.c`, `stm32f4xx_it.c`, `stm32f4xx_hal_msp.c`, `system_stm32f4xx.c`)
 - `Test_Cases_Photos/` — Hardware setup photos, PuTTY/Tera Term UART logs, and power/timing measurements
 - `greenhouse.ioc` — STM32CubeMX hardware & clock configuration (`84 MHz` SYSCLK via HSI+PLL, `ADC1_IN1`, `USART2`, `LSI`)
-- `Project_report.pdf` / `Low_Power_Temperature_Sampling_Report.docx` — Final KPIT Apex Lab Agile project report
-- `General_Instructions.pdf` — KPIT Apex Lab project guidelines
+- `Project_report.pdf` / `Low_Power_Temperature_Sampling_Report.docx` — Final project report
+- `General_Instructions.pdf` — Project guidelines
